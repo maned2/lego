@@ -1,9 +1,16 @@
-lego mindstorms - A construction kit in which you can write in Python and connect it to your computer.
-main.py - main program
-convert.py - audio file converter
-cp.py - program for downloading sound files to the mindstorms device
+# lego mindstorms
 
+A construction kit in which you can write in Python and connect it to your computer.
 
+- main.py - main program
+- convert.py - audio file converter
+- cp.py - program for downloading sound files to the mindstorms device
+
+# Installation
+[] todo
+
+# Examples
+```commandline
 sudo su
 ./cp.py sounds/device/battery_full my_sounds
 
@@ -32,3 +39,7 @@ ls
 
 
 python3 convert_sound.py sounds/wav/start_0.wav
+```
+
+# TODO:
+- [ ] write installation instruction
